@@ -13,7 +13,7 @@ function Projects(){
     return (
         <div>
             <h1>Meus Projetos</h1>
-            {message && <Message type="success" msg={message}/>}
+            {message && <Message msg="alguma mensagem"/>}
         </div>
     )
 }
